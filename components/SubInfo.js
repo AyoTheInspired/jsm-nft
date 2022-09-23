@@ -42,7 +42,9 @@ export const EthPrice = ({ price }) => {
 					fontFamily: FONTS.medium,
 					fontSize: SIZES.medium,
 					color: COLORS.primary,
-				}}></Text>
+				}}>
+				{price}
+			</Text>
 		</View>
 	);
 };

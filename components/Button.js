@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity, Image } from "react-native";
+import { Text, TouchableOpacity, Image } from "react-native";
 import React from "react";
 import { COLORS, FONTS, SHADOWS, SIZES } from "../constants";
 
@@ -31,9 +31,7 @@ export const RectButton = ({ minWidth, fontSize, handlePress, ...props }) => {
 		<TouchableOpacity
 			style={{
 				backgroundColor: COLORS.primary,
-
 				borderRadius: SIZES.extraLarge,
-
 				minWidth: minWidth,
 				padding: SIZES.small,
 				...props,
